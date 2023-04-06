@@ -1,52 +1,16 @@
-<!DOCTYPE html> <!-- Esto le dice al navegador que todo lo siguiente es HTML --> 
-
-<html lang="es"> <!-- Contenedor padre. El lang le dice al navegador cual es el lenguaje-->
-
-    <head> <!--aca adentro va todo lo importasnte parta poder cargar el proyecto como mfue construido, no es visual para el cliente-->
-
-        <meta charset="UTF-8"> <!-- entiende caracteres especiales-->
-        <meta name="description" content="esta pagina te mostrará fotos"> <!--descripcion de lo que es la pagina que aparece abajo una vez que fue buscada la pagina y aparece en el navegador-->
-        <meta name="robots" content="index,follow"> <!--le dice a los robots de busqueda que lo autoriza a posicionar nuestra paágina en base a lo que busque el cliente (se puede poner unfollow)-->
-        <title>Es mí página</title>
-        <meta name="viewport" content="width=device-width,inictial-scale=1.0"> <!--Esto es para que sea responsive-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-
-<!--ETIQUETAS CONTENEDORAS-->
-
-    <body> 
-        <header>
-            <nav></nav>
-        </header>
-
-        <main>
-            <section>
-                <article>
-
-                </article>
-            </section>
-            <ul> <!-- lista desordenada, todos los items van a salir desordenados, con puntitos llamados bullets-->
-                <li>list item, Soy una manzana</li>
-            </ul> 
-            <ol>
-                <li>Soy una manzana</li>
-            </ol> <!-- lista ordenada, todos los items van a salir ordenados-->
-        </main>
-
-        <footer>
-
-        </footer>
-
-        <div>
-            <!--comodin -->
-        </div>
-
-        <!--ETIQUETAS DE CONTENIDO-->
-        <p>Soy un texto</p>
-        <h1>Soy un título</h1>
-        <h2>Soy otro título</h2>
-        <h3>Soy un título más</h3>
-        <a href="#">Soy un link</a>
-    </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de la etiqueta de video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video src="./video.mp4#t=10,16" controls preload="auto"></video>
+        </section>
+    </main>
+</body>
 </html>
