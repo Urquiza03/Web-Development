@@ -7,7 +7,7 @@
     <title>Formularios</title>
 </head>
 <body>
-
+<main>
     <!-- Clase 16: Etiqweta form e input -->
     
     <h2>Clase 16: Etiqueta form e input</h2>
@@ -63,6 +63,33 @@
         <input type="submit">
     </form>
 
-    
+    <br><br>
+
+    <!-- Clase 18: Autocomplete y require -->
+
+    <h2>Clase 18: Autocomplete y require</h2>
+
+
+    <form action="">
+        <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+        </label>
+        <label for="correo">
+            <span>¿Cuál es tu correo?</span>
+            <input type="email" id="correo" name="correo" autocomplete="email" required>
+        </label>
+        <label for="pais">
+            <span>¿En qué país vives?</span>
+            <input type="text" id="pais" name="pais" autocomplete="country" required>
+        </label>
+        <label for="cp">
+            <span>¿Cúal es tu código postal?</span>
+            <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+        </label>
+        <input type="submit">
+    </form>
+
+</main>
 </body>
 </html>
