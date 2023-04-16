@@ -1,0 +1,21 @@
+.main-title{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+.categoria{
+    font-size: 30px;
+    color: red;
+    
+}
+
+#foto{
+    width: 30%;
+    
+}
+
+figcaption{
+    font-size: 22px;
+    color: black;
+}
