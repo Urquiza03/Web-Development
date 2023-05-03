@@ -36,3 +36,7 @@ Al inspeccionar me regresa los estilos en orden del más importante al menos imp
     text-decoration: none; /* Quita el subrayado */
 }
 /* Esto quiere decir que estoy llamando a todas las etiquetas <a> que estén dentro de otra etiqueta con el id="main-nav". Estoy siendo muy específico */
+
+#main-nav .blog{
+    background-color: red !important;
+}
