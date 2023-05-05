@@ -1,4 +1,12 @@
 /* Hijo (Child) */
+/*
 div > p{
+    color: red;
+}
+*/
+
+/* Descendiente */
+
+div p{
     color: red;
 }
