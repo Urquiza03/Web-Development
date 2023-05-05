@@ -1,13 +1,4 @@
-/*Hermano Adyacente*/
-/*
-h2 + p{
+/* Hijo (Child) */
+div > p{
     color: red;
 }
-*/
-
-/*Hermano General*/
-
-h2 ~ p {
-    color: red;
-}
-
