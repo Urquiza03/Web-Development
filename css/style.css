@@ -1,12 +1,13 @@
-/* Hijo (Child) */
-/*
-div > p{
-    color: red;
+.px{
+    font-size: 18px;
 }
-*/
 
-/* Descendiente */
+.porcent{
+    font-size: 80%;
+}
 
-div p{
-    color: red;
+main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
 }
