@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Acá pondría los estilos de la etiqueta html */
 .px{
     font-size: 18px;
 }
@@ -14,4 +20,19 @@
 
 .text-container div{
     font-size: 1.5em; /* Está tomando la medida del padre directo, el cual es .text container (etiqueta <main>) */
+}
+
+/* Clase 35: */
+
+html{
+    font-size: 62.5%; /* (10px) */
+}
+
+.rem{
+    font-size: 1rem; /* Está tomando la medida de la etiqueta root de mi proyecto, la cual siempre es la etioqueta <html> */
+}
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
