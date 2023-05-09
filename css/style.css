@@ -1,6 +1,3 @@
-body{
-    font-size: 20px;
-}
 .px{
     font-size: 18px;
 }
@@ -9,7 +6,12 @@ body{
     font-size: 80%;
 }
 
+/* Clase 34: */
+
 .text-container{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
+.text-container div{
+    font-size: 1.5em; /* Está tomando la medida del padre directo, el cual es .text container (etiqueta <main>) */
+}
