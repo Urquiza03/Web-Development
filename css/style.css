@@ -9,7 +9,7 @@
 }
 
 .porcent{
-    font-size: 80%;
+    font-size: 140%;
 }
 
 /* Clase 34: */
@@ -29,7 +29,7 @@ html{
 }
 
 .rem{
-    font-size: 1rem; /* Está tomando la medida de la etiqueta root de mi proyecto, la cual siempre es la etioqueta <html> */
+    font-size: 2rem; /* Está tomando la medida de la etiqueta root de mi proyecto, la cual siempre es la etioqueta <html> */
 }
 
 h1{
