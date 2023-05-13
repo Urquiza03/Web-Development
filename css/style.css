@@ -4,17 +4,22 @@
     padding: 0;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
-    background-color: purple;
+.parent{
+    border: 2px black dotted; /* Dotted es punteado */
+    display: inline-block;
 }
 
-section{
-    width: 80%;
-    min-width: 320px;
-    max-width: 500px;
-    min-height: 500px;
-    margin: 0 auto; /* CENTRAR */
+.box{
+    display: inline-block;
     background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: green;
+    /* position: static; ---> por defecto*/
+    /*position: absolute; ---> Renderiza al 3 atrás del 2, por eso en el código no se ve el 3 */
+    position: relative;
+    bottom: 15px; /* Se puede aplicar esta propiedad solo si se aplica position:relative; */
 }
