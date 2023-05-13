@@ -23,3 +23,30 @@
     position: relative;
     bottom: 15px; /* Se puede aplicar esta propiedad solo si se aplica position:relative; */
 }
+
+/* DESAFIO: */
+html{
+    font-size: 62.5%;
+}
+.parent-container{
+    display: inline-block;
+    
+}
+.child-container{
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+#red{
+    background-color: red;
+    position: absolute;
+    padding: 2.5rem;
+    top: 10rem;
+    left: 30%;
+    right: 30%;
+    max-width: 130px;
+}
+#grey{
+    background-color: gainsboro;
+    padding: 3rem;
+    
+}
