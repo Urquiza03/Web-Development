@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.parent-container{
+    display: inline-block;
+    margin: 0 auto;    
+}
+.child-container{
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+#red{
+    background-color: red;
+    position: absolute;
+    padding: 2.5rem;
+    bottom: 35rem;
+    left: 37.5rem;
+    width: 28%;
+    min-width: 130px;
+    max-width: 130px;
+}
+#grey{
+    background-color: gainsboro;
+    padding: 4rem;
+    margin: 4rem 25rem;
+}

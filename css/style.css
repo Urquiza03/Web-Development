@@ -30,7 +30,7 @@ html{
 }
 .parent-container{
     display: inline-block;
-    
+    margin: 0 auto;    
 }
 .child-container{
     display: inline-block;
@@ -40,13 +40,14 @@ html{
     background-color: red;
     position: absolute;
     padding: 2.5rem;
-    top: 10rem;
-    left: 30%;
-    right: 30%;
+    bottom: 35rem;
+    left: 37.5rem;
+    width: 28%;
+    min-width: 130px;
     max-width: 130px;
 }
 #grey{
     background-color: gainsboro;
-    padding: 3rem;
-    
+    padding: 4rem;
+    margin: 4rem 25rem;
 }
