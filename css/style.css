@@ -13,14 +13,13 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
+    /* height: 50vh; 50% de la pantalla, quito el flex-wrap */
     
     /* align-items: center; Se alinean de forma vertical en el centro (en este caso) */
     /* align-items: flex-end;
     align-items: flex-start; */
     /* align-items: stretch; Se estiran al 100% de su contenedor padre, si le defino un valor de width o height no va a estirarse, le voy a sacar el height para probar esta propiedad */
-    /* align-items: baseline; Toma el espacio del contenido,m se limita a el; cuanto mas grande sea el contenido mas va a crecer el contenedor */
-    /* height: 50vh; 50% de la pantalla, quito el flex-wrap */
-
+    /* align-items: baseline; Toma el espacio del contenido, se limita a el; cuanto mas grande sea el contenido mas va a crecer el contenedor */
     /* 
     flex-direction: column;
     flex-direction: column-reverse;
@@ -29,11 +28,11 @@ body{
     */
     flex-wrap: wrap; /* A medida que vaya achicando el viewport, los elementos van a ir posicionandose hacia arriba */
     /* flex-wrap: wrap-reverse; */
+    
     /* justify-content: center;
-
     justify-content: flex-end;
     justify-content: flex-start; */
-    /* justify-content: baseline; ---> Los contenedores se ajustan al tamaño del contenido, siemrpe y cuando no haya limitado/definido su tamaño con css*/
+    /* justify-content: baseline; */
     /* justify-content: space-around; Espacio entre contenedores */
     /* justify-content: space-evenly; es el mismo espacio de contenedor a contenedor y los bordes */
 }
