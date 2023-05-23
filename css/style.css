@@ -13,30 +13,46 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
+    
+    /* align-items: center; Se alinean de forma vertical en el centro (en este caso) */
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    /* align-items: stretch; Se estiran al 100% de su contenedor padre, si le defino un valor de width o height no va a estirarse, le voy a sacar el height para probar esta propiedad */
+    /* align-items: baseline; Toma el espacio del contenido,m se limita a el; cuanto mas grande sea el contenido mas va a crecer el contenedor */
+    /* height: 50vh; 50% de la pantalla, quito el flex-wrap */
+
     /* 
     flex-direction: column;
     flex-direction: column-reverse;
     flex-direction: row;
     flex-direction: row-reverse; 
     */
-    /* flex-wrap: wrap; A medida que vaya achicando el viewport, los elementos van a ir posicionandose hacia arriba */
+    flex-wrap: wrap; /* A medida que vaya achicando el viewport, los elementos van a ir posicionandose hacia arriba */
     /* flex-wrap: wrap-reverse; */
     /* justify-content: center;
+
     justify-content: flex-end;
     justify-content: flex-start; */
-    /* justify-content: baseline; ---> Achica el width de los contenedores que esten adentro*/
+    /* justify-content: baseline; ---> Los contenedores se ajustan al tamaño del contenido, siemrpe y cuando no haya limitado/definido su tamaño con css*/
     /* justify-content: space-around; Espacio entre contenedores */
-    justify-content: space-evenly; /* es el mismo espacio de contenedor a contenedor y los bordes */
+    /* justify-content: space-evenly; es el mismo espacio de contenedor a contenedor y los bordes */
 }
 .box{
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    
+    /* flex-basis: 10rem;
+    flex-grow: 1;
+    /* A medida que se achica la pantalla, se bajan los contendeores ocupando el 100% del tamaño disponible. Se achican hasta que queda una columna */
 }
 .box1{
     background-color: blue;
+    /* order: 1; le dice donde posicionarse. Los elementos a los que no les doy orden van a pasar a la izquierda de los que sí tengan orden */
+    flex-grow: 1; /* Los contenedores con esta propiedad van a crecer lo necesario para ocuopar el 100% del espacio */
 }
 .box2{
     background-color: blueviolet;
+    flex-grow: 1;
 }
 .box3{
     background-color: burlywood;
