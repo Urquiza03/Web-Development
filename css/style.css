@@ -1,18 +1,52 @@
-.block-element{
-    background-color: green;
-    margin: 10px;
-    padding: 20px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.nav{
-    background-color: peachpuff;
-    padding: 20px;
-    list-style-type: none;
-    text-align: center;
+html{
+    font-size: 62.5%;
 }
-.nav li{
-    display: inline-block;
-    padding: 0 20px;
-    font-size: 20px;
-    margin: 10px 0; /* Arriba/abajo - Izquierda/derecha */
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* 
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; 
+    */
+    /* flex-wrap: wrap; A medida que vaya achicando el viewport, los elementos van a ir posicionandose hacia arriba */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start; */
+    /* justify-content: baseline; ---> Achica el width de los contenedores que esten adentro*/
+    /* justify-content: space-around; Espacio entre contenedores */
+    justify-content: space-evenly; /* es el mismo espacio de contenedor a contenedor y los bordes */
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
 }
