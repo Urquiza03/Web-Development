@@ -10,18 +10,15 @@ html{
  .note-container{
     position: relative;
     padding: 30px;
-    min-height: 200px;
+    min-height: 20px;
  }
  .note{
-    color: grey;
-    position: absolute;
-    border-radius: 2px;
     background-color: aqua;
+    color: grey;
+    position: relative;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    border: 10px;
-    margin: auto;
     padding: 20px;
     border-radius: 10px;
  }
