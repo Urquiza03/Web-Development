@@ -1,3 +1,11 @@
+
+
+
+/* PONER EJEMPLOS DE CADA UNO Y DEJAR LISTO PARA ESTUDIAR */
+
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -18,8 +26,12 @@
 
 #two{
     background-color: green;
-    /* position: static; ---> por defecto*/
-    /*position: absolute; ---> Renderiza al 3 atrás del 2, por eso en el código no se ve el 3 */
-    position: relative;
+    /* position: static; ---> por defecto. No es afectado por las propiedades top, bottom, left o right */
+    
+    /* position: relative; ---> Igual que static pero se puede usar top, bottom, left y right. Es relativo a su posicion normal */
+    
+    /*position: absolute; ---> Es relativo al primer padre posicionado. */
+    
+    /* position: fixed; ---> Te acompaña. Es relativo al viewport, aunque scrollee el elemento va a estar fijo */
     bottom: 15px; /* Se puede aplicar esta propiedad solo si se aplica position:relative; */
 }
