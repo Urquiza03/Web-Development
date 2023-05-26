@@ -1,37 +1,26 @@
-:root{ /* El root hace referencia al html SIEMPRE, es la raiz, el punto de partida */
-    --primary-color: #003476; /* Declaración de variable */
-    --secondary-color: #b4d2f7;
-    --header-size: 4rem; /* Tamaño de los encabezados en este caso */
-    --font: 1.8rem;
-}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-html{
-    font-size: 62.5%;
-}
-
-header{
-    width: 100vw; /* 100% del viewport */
-    height: 15vh;
-    background-color: var(--primary-color); /* Color primario */ /* Implementación de variables */
-}
-
-main{
+table{
     width: 100vw;
-    height: 70vh;
-    font-size: var(--font);
+}
+th{
+    height: 30px;
+}
+table, tr, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
 }
 
-h1{
-    font-size: var(--header-size);
+table .table-header{
+    background-color: #131BC8;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
 }
-
-footer{
-    width: 100vw;
-    height: 15vh;
-    background-color: var(--secondary-color); /* Color secundario */
+.table-header--fuentes{
+    
 }
